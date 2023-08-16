@@ -1,0 +1,22 @@
+.box-body {
+  cursor: pointer;
+  -webkit-animation: box-body 1s forwards ease-in-out;
+  animation: box-body 1s forwards ease-in-out;
+}
+.box-body .img {
+  opacity: 1;
+  z-index: 0;
+  transform: translateY(-157px);
+}
+.box-body .box-lid {
+  -webkit-animation: box-lid 1s forwards ease-in-out;
+  animation: box-lid 1s forwards ease-in-out;
+}
+.box-body .box-bowtie::before {
+  -webkit-animation: box-bowtie-left 1.1s forwards ease-in-out;
+  animation: box-bowtie-left 1.1s forwards ease-in-out;
+}
+.box-body .box-bowtie::after {
+  -webkit-animation: box-bowtie-right 1.1s forwards ease-in-out;
+  animation: box-bowtie-right 1.1s forwards ease-in-out;
+}
